@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+/* Speech styles */
+.speech {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+}
+
+/* Stage directions */
+.stage-direction {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* Hover effect on stage directions */
+.stage-direction:hover {
+    background-color: #c0c0c0;
+    color: #333;
+}
+
+/* Character name styles */
+h4 {
+    font-family: "Verdana", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+/* Individual character styles */
+.first-petitioner {
+    color: #d32f2f;  /* Red */
+}
+
+.second-petitioner {
+    color: #1976d2;  /* Blue */
+}
+
+.peter {
+    color: #388e3c;  /* Green */
+}
+
+.suffolk {
+    color: #f57c00;  /* Orange */
+}
+
+.queen-margaret {
+    color: #7b1fa2;  /* Purple */
+}
+
+/* Styling for Table */
+.casting-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Borders and Header Styling */
+.casting-table th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Table Row Styling */
+.casting-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating Row Colors */
+.casting-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+.casting-table tr:hover {
+    background-color: #ddd;
+}
+h4:hover {
+    text-shadow: 3px 3px 10px rgba(255, 0, 150, 0.7); /* Pink glow shadow */
+    border: 2px solid rgba(0, 255, 255, 0.7); /* Cyan border */
+    padding: 5px; /* Adds some spacing */
+    transition: all 0.3s ease-in-out; /* Smooth effect */
+}
